@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body{
+  margin: 0;
+}
+
 .column {
   float: left;
   width: 40%;
@@ -23,7 +27,8 @@
 
 .header {
   padding: 3px;
+  padding-left: 6px;
   text-align: left;
   background: #434347;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
