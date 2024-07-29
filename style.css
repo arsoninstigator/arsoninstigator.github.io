@@ -20,3 +20,10 @@
   display: table;
   clear: both;
 }
+
+.header {
+  padding: 3px;
+  text-align: left;
+  background: #434347;
+  color: white;
+  font-size: 18px;
