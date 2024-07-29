@@ -17,6 +17,7 @@ body{
   float: right;
   width: 70%;
   padding: 10px;
+  padding-right: 20px;
 }
 
 .row:after {
