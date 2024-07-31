@@ -10,7 +10,8 @@ body{
   float: left;
   width: 30%;
   padding: 10px;
-  text-align: right
+  text-align: right;
+  vertical-align: bottom;
 }
 
 .column2 {
@@ -27,7 +28,7 @@ body{
 }
 
 .header {
-  padding: 3px;
+  padding: 2px;
   padding-left: 6px;
   text-align: left;
   background: #434347;
