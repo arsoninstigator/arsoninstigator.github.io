@@ -38,3 +38,17 @@ body{
   background: #434347;
   color: white;
   font-size: 16.5px;
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 75%;
+}
