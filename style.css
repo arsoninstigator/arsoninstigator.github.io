@@ -56,7 +56,11 @@ body{
 }
  */
 
-.p a:hover {
+#hovering {
+  text-decoration: none; 
+ }
+
+#hovering:hover {
   text-decoration-line: underline; 
   text-decoration-style: wavy; 
   text-decoration-color: red;
