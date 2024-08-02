@@ -55,3 +55,9 @@ body{
   width: 60%;
 }
  */
+
+.p a:hover {
+  text-decoration-line: underline; 
+  text-decoration-style: wavy; 
+  text-decoration-color: red;
+}
