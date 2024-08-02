@@ -38,10 +38,10 @@ body{
   color: white;
   font-size: 16.5px;
 
-.row2:after {
+/* .row2:after {
   content: "";
   display: table;
-  clear: both;
+  clear: both; */
 
 /* .column {
   float: left;
