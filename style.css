@@ -10,7 +10,7 @@ body{
   margin: 0;
 }
 
-.column {
+.column1 {
   float: left;
   width: 30%;
   padding: 10px;
@@ -44,11 +44,14 @@ body{
   display: table;
   clear: both;
 
-
+.column {
+  float: left;
+  padding: 10px;
+  
 .left {
-  width: 30%;
+  width: 40%;
 }
 
 .right {
-  width: 75%;
+  width: 60%;
 }
