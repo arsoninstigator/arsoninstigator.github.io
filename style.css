@@ -111,15 +111,3 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   margin-bottom: 0;
 } */
 
-.tooltip {
-  text-decoration:none;
-  position:relative;
-}
-.tooltip span {
-  display:none;
-}
-.tooltip:hover span {
-  display:block;
-  position:fixed;
-  overflow:hidden;
-}
