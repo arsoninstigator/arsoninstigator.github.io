@@ -37,7 +37,14 @@
   <div class="column2" style="background-color:#fffff">
 <!--     <h2 style="font-family:poppins; line-height: 0.7; font-size:28px;">HI, I'M ANNE <i>!</i></h2> -->
 <!--     <p style="font-size:20px; font-family:poppins; line-height:0.7;">HELLO, I'M ANNE :) <p style="font-size:17px;"> she/her </p> </p> -->
-   <h2 style="font-family:poppins; line-height: 0.4; font-size:30px;">HI, I'M <b class="hover-title">ANNE </b><i>!</i></h2>
+   <h2 style="font-family:poppins; line-height: 0.4; font-size:30px;">HI, I'M <b class="hover-title">
+    <a class="tooltip" href="http://www.google.com/">
+    ANNE
+    <span>
+        <img alt="" src="http://www.google.com/images/srpr/logo4w.png" />
+    </span>
+</a>
+ANNE </b><i>!</i></h2>
     <!-- <div class="hover-image"><img data-src="images/me.png" src ="images/me.png"></div> -->
   <!-- <span style="color:#c4c2c2; font-size:20px; font-family:Amethysta;"> (sheher) </span> -->
   <!-- <p style="font-family:poppins;font-size:19px; line-height:0; padding: 0px; margin: 0px;">professional procrastinator and yapper • sheher</p> -->
@@ -73,6 +80,18 @@
     'floating-chat.donateButton.background-color': '#edb5b6',
     'floating-chat.donateButton.text-color': '#323842'
   });
+</script>
+<script>
+  var tooltips = document.querySelectorAll('.tooltip span');
+
+window.onmousemove = function (e) {
+    var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    for (var i = 0; i < tooltips.length; i++) {
+        tooltips[i].style.top = y;
+        tooltips[i].style.left = x;
+    }
+};
 </script>
 
 </body>
