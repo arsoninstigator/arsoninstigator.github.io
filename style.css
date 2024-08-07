@@ -129,8 +129,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .hover-image {
   display: flex;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 15%;
+  left: 53%;
   transform: translate(-50%, -50%);
   z-index: 1;
   pointer-events: none;
@@ -139,8 +139,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   justify-content: center;
 
 /* Change width and height to scale images */
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
 }
 
 /* .hover-image img {
