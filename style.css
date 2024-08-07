@@ -132,21 +132,21 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: 1;
   pointer-events: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
 /* Change width and height to scale images */
-  width: 90vw;
-  height: 90vh;
+  width: 100px;
+  height: 100px;
 }
 
-.hover-image img {
+/* .hover-image img {
   max-width: 100% !important;
   max-height: 100% !important;
   width: auto !important;
   height: auto !important;
   margin-bottom: 0;
-}
+} */
