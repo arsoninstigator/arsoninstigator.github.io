@@ -111,6 +111,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   margin-bottom: 0;
 } */
 
+/* hover-image referenced from videos made by cargo collective */
 .hover-title {
   display: inline;
   pointer-events: auto;
@@ -138,10 +139,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   align-items: center;
   justify-content: center;
 
-/* Change width and height to scale images */
   width: 130px;
   height: 130px;
 }
+
 
 /* .hover-image img {
   max-width: 100% !important;
