@@ -153,6 +153,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   margin-bottom: 0;
 } */
 
-#hover u:hover {
+.hover:hover {
   background: #F7B5CA;
   text-decoration: none; }
