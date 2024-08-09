@@ -13,7 +13,7 @@ body{
 .column {
   float: left;
   width: 30%;
-  padding: 10px;
+  padding: 16px;
   text-align: right;
 }
 
@@ -22,6 +22,7 @@ body{
   width: 70%;
   padding: 10px;
   padding-right: 20px;
+  padding-left: 20px
 }
 
 .row:after {
