@@ -165,7 +165,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   }
   
   .flag.icon {
-    width: 3em;
+    width: 1.5em;
   }
 
   .flag.bisexual {
@@ -179,11 +179,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 section {
   margin: 2vmin;
-}
-
-.flag {
-  box-shadow: 0 0 0 0.5px;
-  abox-shadow: 5px 5px 10px #ccc;
 }
 
 
