@@ -177,9 +177,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   flex-wrap: wrap;
 }
 
-section {
-  margin: 2vmin;
-}
 
 
 body {
