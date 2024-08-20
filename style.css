@@ -154,7 +154,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 } */
 
 .highlight {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
