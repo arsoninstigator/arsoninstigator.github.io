@@ -187,3 +187,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 body {
   overflow-x: hidden;
 }
+
+.column3 {
+  float: left;
+  width: 27%;
+  padding: 16px;
+  text-align: left;
+}
