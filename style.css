@@ -199,7 +199,7 @@ body {
 #footer {
   text-align: center;
   font-family: poppins;
-  padding: 3px;
+  /* padding: 3px; */
   background-color: grey;
 }
 
