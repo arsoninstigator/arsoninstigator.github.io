@@ -195,3 +195,22 @@ body {
   text-align: left;
 
 }
+
+footer {
+  text-align: center;
+  font-size: 17px;
+  font-family: poppins;
+  padding: 3px;
+  background-color: grey;
+  color: white;
+}
+
+#footer a{
+  text-decoration: none; 
+ }
+
+#footer a:hover {
+  text-decoration-line: underline; 
+  text-decoration-style: wavy; 
+  text-decoration-color: rgb(224, 193, 193);
+}
