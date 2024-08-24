@@ -196,28 +196,18 @@ body {
 
 }
 
-footer {
+#footer {
   text-align: center;
   font-family: poppins;
-  padding: 3px;
   background-color: grey;
-  display: flex;
-  justify-content: space-around;
 }
 
-.footers a{
+#footer a{
   text-decoration: none; 
  }
 
-.footers a:hover {
+#footer a:hover {
   text-decoration-line: underline; 
   text-decoration-style: wavy; 
   text-decoration-color: rgb(224, 193, 193);
-}
-
-.footers {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
