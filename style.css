@@ -205,7 +205,7 @@ body {
 
 #footer {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-family: poppins;
   padding: 2.7px;
   background-color: #434347;
@@ -223,7 +223,7 @@ body {
 #footer a:hover {
   text-decoration-line: underline; 
   text-decoration-style: wavy; 
-  text-decoration-color: rgb(224, 193, 193);
+  text-decoration-color: rgb(198, 55, 55);
 }
 
 .aligning {
