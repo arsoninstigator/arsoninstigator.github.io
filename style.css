@@ -8,6 +8,8 @@ html {
 
 body{
   margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .column {
@@ -188,6 +190,9 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 body {
   overflow-x: hidden;
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh
 }
 
 .column3 {
@@ -205,6 +210,10 @@ body {
   padding: 2.7px;
   background-color: #434347;
   color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #footer{
@@ -215,4 +224,8 @@ body {
   text-decoration-line: underline; 
   text-decoration-style: wavy; 
   text-decoration-color: rgb(224, 193, 193);
+}
+
+.aligning {
+  flex: 1;
 }
