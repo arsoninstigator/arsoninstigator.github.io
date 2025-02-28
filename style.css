@@ -2821,3 +2821,33 @@ body {
     transition: none !important;
     filter: none !important;
 }
+
+
+#text17:not(:first-child) {
+    margin-top: 0.125rem !important;
+}
+
+#text17:not(:last-child) {
+    margin-bottom: 0.125rem !important;
+}
+
+#text17 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875em;
+    line-height: 0.75;
+    font-weight: 400;
+    align: left;
+}
+
+#text17 a {
+    text-decoration: underline;
+}
+
+#text17 a:hover {
+    text-decoration: none;
+}
+
+#text17 span.p:nth-child(n + 2) {
+    margin-top: 1rem;
+}
